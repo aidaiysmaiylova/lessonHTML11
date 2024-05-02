@@ -3,70 +3,82 @@
 * {
     margin: 0;
     padding: 0;
-    box-sizing:border-box;
+    box-sizing: border-box;
     font-family: "Poppins", sans-serif;
 }
 
-.logo{
+.logo {
     color: #295943;
     font-size: 33.18px;
-    margin-left: 30px;
+    margin-left: 50px;
 }
-a{
+
+a {
     color: #3D3E48;
 }
-a:hover{
-    color:#43B97F;
+
+a:hover {
+    color: #43B97F;
     font-weight: bold;
+    cursor: pointer;
 }
-a:active{
+
+a:active {
     color: blue;
     text-decoration: underline;
 }
 
-.kg{
+.kg {
     width: 20px;
     height: 20px;
-    border-radius:50% ;
+    border-radius: 50%;
 
 }
-.id{
+
+.id {
     font-weight: bold;
 }
-.header-icon{
+
+.header-icon {
     width: 20px;
     height: 20px;
 }
-.header-container-flag{
+
+.header-container-flag {
     display: flex;
     gap: 10px;
     align-items: center;
-    margin-right: 30px;
+    margin-right: 80px;
+
 }
-header{
+
+header {
     width: 100%;
-    height: 80px;
+    height: 50px;
     /*background-color: blue;*/
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
-nav{
-display: flex;
+
+nav {
+    display: flex;
     gap: 20px;
 }
-.main-title{
+
+.main-title {
     color: #295943;
     font-size: 16px;
     text-align: center;
 }
-.second-title{
+
+.second-title {
     color: #3D3E48;
     font-size: 27.65px;
     text-align: center;
 }
 
-.card{
+.cards {
     width: 380px;
     height: 363px;
     background-color: #FFFFFF;
@@ -75,30 +87,214 @@ display: flex;
     padding-left: 10px;
     padding-right: 10px;
     border: 1px solid black;
-    box-shadow: 3px 7px 20px 9px rgba(196,190,196,1);
-
+    box-shadow: 3px 7px 20px 9px rgba(196, 190, 196, 1);
+    margin-top: 40px;
 
 }
-.card-photo{
+
+.card-photo {
     width: 360px;
     height: 227px;
     border-radius: 10px;
 }
-.main-card-title{
+
+.main-card-title {
     color: #3D3E48;
     font-size: 19.2px;
 }
-.kgz-text{
+
+.kgz-text {
     color: #295943;
-    font-size: 16px;
+    font-size: 14px;
 }
-.container-foot{
+
+.container-foot {
     display: flex;
     justify-content: space-between;
     margin-top: 50px;
 }
-.main-cards{
+
+.main-cards {
     display: flex;
     gap: 50px;
     margin-left: 30px;
 }
+
+.banner {
+    background-image: url("https://pic.rutubelist.ru/video/ab/55/ab55c0ba11f151b466bdbdeb877f55c5.jpg");
+    width: 100%;
+    height: 600px;
+    background-size: 100% 660px;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.description {
+    font-family: Poppins;
+    font-weight: 400;
+    font-size: 47.78px;
+    line-height: 57.34px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.second-description {
+    font-family: Poppins;
+    color: #FFFFFF;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28.8px;
+    text-align: center;
+    width: 780px;
+    margin-top: 10px;
+}
+
+.banner-menu {
+    margin-top: 65px;
+    background-color: white;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 780px;
+    height: 55px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    border-radius: 8px;
+    padding: 9px 11px;
+}
+
+.banner-menu input {
+    border: none;
+    outline: none;
+    padding: 10px;
+}
+.banner-menu input:nth-of-type(2){
+    border-left: 1px solid #3D3E48;
+    border-right: 1px solid #3D3E48;
+    padding: 10px;
+}
+.banner-menu button {
+    background-color: #43B97F;
+    height: 40px;
+    width: 168px;
+    border: none;
+    border-radius: 10px;
+    color: white;
+}
+.location-cards-1{
+    display: flex;
+    top: 1102px;
+    justify-content: center;
+    gap: 40px;
+}
+
+.location-cards-2{
+    display: flex;
+    top: 1102px;
+    justify-content: center;
+    gap: 40px;
+}
+
+
+.container_rating {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 200px;
+}
+
+
+.wrapper_rating {
+    width: 200px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.wrapper_rating h1{
+    font-size: 42px;
+    font-weight: 700;
+    color: #295943;
+}
+.wrapper_rating p{
+    text-align: center;
+    color: #3D3E48;
+    font-size: 14px;
+    font-weight: 300;
+    width: 155px;
+}
+.main1-title {
+    color: #295943;
+    font-size: 16px;
+    text-align: center;
+}
+.second1-title {
+    color: #3D3E48;
+    font-size: 27.65px;
+    text-align: center;
+}
+.photo {
+    width: 40px;
+    border-radius: 50%;
+}
+
+.person {
+    display: flex;
+    margin-top: 60px;
+    justify-content: center;
+    /*width: 600px;*/
+}
+
+.person2 {
+    display: flex;
+    justify-content: center;
+    margin-top: 60px;
+
+}
+.insta{
+    width: 24px;
+    height: 24px;
+    color: white;
+}
+
+.telegram{
+    width: 24px;
+    height: 24px;
+    color: white;
+}
+.whatsapp{
+    height: 28px;
+    width: 28px;
+    color: white;
+}
+.footer{
+    width: 100%;
+    height: 50px;
+    top: 2596px;
+    background-color: #295943;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-right: 120px;
+    padding-left: 50px;
+}
+
+.footer-logo{
+    color: white;
+    font-size: 33.18px;
+    margin-left: 50px;
+}
+.third-page{
+    margin-top: 90px;
+}
+.feedbacks{
+    margin-bottom: 40px;
+    margin-left: 20px;
+}
+
+
